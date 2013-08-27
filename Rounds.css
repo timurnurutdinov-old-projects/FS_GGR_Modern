@@ -73,9 +73,20 @@ h3 {
 
 #poster_block {
 	background-color: white;
-	width: 978px;
+	width: 100%;
 	height: 1088px;
-	margin: auto;
+}
+
+#sharing_block {
+background: #CE6D5C;
+	background-image: -o-radial-gradient(52% 47%, #CEBF5C 52%, #CE6D5C 97%);
+	background-image: -moz-radial-gradient(52% 47%, #CEBF5C 52%, #CE6D5C 97%);
+	background-image: -webkit-radial-gradient(52% 47%, #CEBF5C 52%, #CE6D5C 97%);
+	background-image: -ms-radial-gradient(52% 47%, #CEBF5C 52%, #CE6D5C 97%);
+	background-image: radial-gradient(52% 47%, #CEBF5C 52%, #CE6D5C 97%);
+	
+	width: 100%;
+	height: 1263px;
 }
 
 #ads_block {
