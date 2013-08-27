@@ -83,7 +83,7 @@ h3 {
 	position: relative;
 	width: 978px;
 	margin: auto;
-/*	top: 201px; */
+	top: 130px; 
 }
 
 #steps_anim {
@@ -103,11 +103,10 @@ h3 {
 	margin-left: 30px;
 	width: 300px;
 	height: 456px;
-	top: 100px;
 }
 
 .ads:first-child {
-	background-color: red;
+	clear: both;
 	margin-left: 0px;
 }
 
