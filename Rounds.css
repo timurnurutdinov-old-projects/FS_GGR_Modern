@@ -47,6 +47,7 @@ h3 {
 #line_image {
 	position: relative;
 	top: 194px;
+	clear: both;
 }
 
 #steps_image {
@@ -62,7 +63,7 @@ h3 {
 	z-index: -3;
 }
 
-#block {
+#features_block {
 	background-color: #CFE3DF;
 	width: 978px;
 	height: 1356px;
@@ -70,11 +71,19 @@ h3 {
 	z-index: -2;
 }
 
+#poster_block {
+	background-color: white;
+	width: 978px;
+	height: 1088px;
+	margin: auto;
+}
+
 #ads_block {
-	position: absolute;
+	background-color: red;
+	position: relative;
 	width: 978px;
 	margin: auto;
-	top: 661px;
+/*	top: 201px; */
 }
 
 #steps_anim {
@@ -94,9 +103,11 @@ h3 {
 	margin-left: 30px;
 	width: 300px;
 	height: 456px;
+	top: 100px;
 }
 
 .ads:first-child {
+	background-color: red;
 	margin-left: 0px;
 }
 
