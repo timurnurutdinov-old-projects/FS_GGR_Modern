@@ -1,18 +1,23 @@
 h1, h2, h6 {
 	font-family: 'Abel', sans-serif;
+	z-index: 5;
 }
 
 h3 {
 	font-family: 'Quicksand', sans-serif;
+	z-index: 5;
 }
 
-.ads_title {
-	font-size: 24px;
-	color: #858383;
-	line-height: 28px;
-	text-align:center;
-	margin: auto;
-	margin-top: 40px;
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+header {
+	background-color: white;
+	position: relative;
+	width: 100%;
+	height: 128px;
 }
 
 #feature_h1_title {
@@ -60,7 +65,7 @@ h3 {
 	background-color: #CFE3DF;
 	width: 100%;
 	height: 100%;
-	z-index: -3;
+	z-index: -4;
 }
 
 #features_block {
@@ -68,7 +73,7 @@ h3 {
 	width: 978px;
 	height: 1356px;
 	margin: auto;
-	z-index: -2;
+	z-index: 2;
 }
 
 #poster_block {
@@ -78,23 +83,17 @@ h3 {
 }
 
 #sharing_block {
-background: #CE6D5C;
-	background-image: -o-radial-gradient(52% 47%, #CEBF5C 52%, #CE6D5C 97%);
-	background-image: -moz-radial-gradient(52% 47%, #CEBF5C 52%, #CE6D5C 97%);
-	background-image: -webkit-radial-gradient(52% 47%, #CEBF5C 52%, #CE6D5C 97%);
-	background-image: -ms-radial-gradient(52% 47%, #CEBF5C 52%, #CE6D5C 97%);
-	background-image: radial-gradient(52% 47%, #CEBF5C 52%, #CE6D5C 97%);
-	
+	background: #DE6554;
 	width: 100%;
 	height: 1263px;
 }
 
 #ads_block {
-	background-color: red;
 	position: relative;
 	width: 978px;
 	margin: auto;
 	top: 130px; 
+	z-index: 1;
 }
 
 #steps_anim {
@@ -104,7 +103,84 @@ background: #CE6D5C;
 
 #main_feature_anim {
 	position: absolute;
-	z-index: 0;
+	z-index: 1;
+}
+
+#centered {
+	position: relative;
+	width: 978px;
+	margin: auto;
+}
+
+#logo {
+	float: left;
+	margin-top: 34px;
+}
+
+#back {
+/*	background-color: black; */
+    background: #FFF url("img/back.jpeg") no-repeat center bottom;
+/*	background-image: url("img/back.jpeg"); */
+	margin: auto;
+	position: relative;
+	width: 100%;
+	height: 651px;
+}
+
+#pawa {
+	background-image: url("img/pawa.png");
+	width: 359px;
+	height: 448px;
+	margin: auto;
+}
+
+#tutorials_intro {
+	font-size: 16px;
+	font-weight: 700;
+	color: #000000;
+	line-height: 18px;
+	text-align: center;
+}
+
+#tutorials_container {
+	width: 978px;
+	margin:auto;
+	margin-top: 36px;
+}
+
+#tutorials_check {
+	margin-top: 16px;
+	text-align: center;
+	font-size: 16px;
+	color: #CE6D5C;
+	line-height: 28px;
+}
+
+#slides {
+	width: 638px;
+	margin: auto;
+	margin-top: 34px;
+}
+
+#slide_1 {
+	background-image: url("img/slide1.png");
+}
+
+#slide_2 {
+	background-image: url("img/slide2.png");
+}
+
+#slide_3 {
+	background-image: url("img/slide3.png");
+}
+
+#back_pattern {
+	/* background-color: red; */
+	background-repeat: -repeat;
+	width: 100%;
+	height: 53px;
+	position: absolute;
+	bottom: -1622px;	
 }
 
 .ads {
@@ -145,3 +221,54 @@ background: #CE6D5C;
 	height: 182px;
 }
 
+.ads_title {
+	font-size: 24px;
+	color: #858383;
+	line-height: 28px;
+	text-align:center;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.top_menu {
+	margin-top: 55px;
+	padding-right: 52px;
+	float: right;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.top_menu:last-child {
+	margin-right: 0;
+}
+
+.tutorials_gap {
+	float: left;
+	width: 146px;
+	margin-right: 100px;
+}
+
+.tutorials_gap:last-child {
+	margin-right: 0;
+}
+
+.tutorial_slides {
+	width: 146px;
+	height: 85px;
+}
+
+.tutorials_text {
+	margin-top: 20px;
+	font-size: 18px;
+	color: #000000;
+	line-height: 23px;
+	text-align: center;
+}
+
+#red_top_menu {
+	color: #C17363;
+}
+
+#green_top_menu {
+	color: #657E37;
+}
