@@ -229,7 +229,7 @@ header {
 #tutorials_container {
 	width: 978px;
 	margin:auto;
-	margin-top: 36px;
+	margin-top: -20px;
 }
 
 #tutorials_check {
@@ -258,18 +258,27 @@ header {
 	background-image: url("img/slide3.png");
 }
 
-#back_pattern {
-	background-color: black;
-	background-image: url('img/rounds_pattern.png');
+#back_high_pattern {
+	background-image: url("img/high_pattern.png");
 	background-repeat: repeat-x;
-	background-position: center 10%;
 	width: 100%;
-	height: 50px;
+	height: 1356px;
 	position: absolute;
-	bottom: -1622px;	
 }
 
+#apps {
+	background-image: url("img/place_apps.png");
+	position: relative;
+	width: 86px;
+	height: 54px;
+	bottom: 54px;
+	margin: auto;
+}
 
+#apps_centered {
+	margin: auto;
+	width: 978px;
+}
 
 .ads {
 	background-image: url("img/pattern.png");
