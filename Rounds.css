@@ -86,7 +86,10 @@ header {
 	background: #DE6554;
 	width: 100%;
 	height: 1263px;
+<<<<<<< HEAD
+=======
 	z-index: -1;
+>>>>>>> Pattern-Fix
 }
 
 #ads_block {
@@ -105,6 +108,86 @@ header {
 #main_feature_anim {
 	position: absolute;
 	z-index: 1;
+<<<<<<< HEAD
+}
+
+#centered {
+	position: relative;
+	width: 978px;
+	margin: auto;
+}
+
+#logo {
+	float: left;
+	margin-top: 34px;
+}
+
+#back {
+/*	background-color: black; */
+    background: #FFF url("img/back.jpeg") no-repeat center bottom;
+/*	background-image: url("img/back.jpeg"); */
+	margin: auto;
+	position: relative;
+	width: 100%;
+	height: 651px;
+}
+
+#pawa {
+	background-image: url("img/pawa.png");
+	width: 359px;
+	height: 448px;
+	margin: auto;
+}
+
+#tutorials_intro {
+	font-size: 16px;
+	font-weight: 700;
+	color: #000000;
+	line-height: 18px;
+	text-align: center;
+}
+
+#tutorials_container {
+	width: 978px;
+	margin:auto;
+	margin-top: 36px;
+}
+
+#tutorials_check {
+	margin-top: 16px;
+	text-align: center;
+	font-size: 16px;
+	color: #CE6D5C;
+	line-height: 28px;
+}
+
+#slides {
+	width: 638px;
+	margin: auto;
+	margin-top: 34px;
+}
+
+#slide_1 {
+	background-image: url("img/slide1.png");
+}
+
+#slide_2 {
+	background-image: url("img/slide2.png");
+}
+
+#slide_3 {
+	background-image: url("img/slide3.png");
+}
+
+#back_pattern {
+	/* background-color: red; */
+	background-repeat: -repeat;
+	width: 100%;
+	height: 53px;
+	position: absolute;
+	bottom: -1622px;	
+=======
+>>>>>>> Pattern-Fix
 }
 
 #centered {
