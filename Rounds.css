@@ -186,8 +186,6 @@ header {
 	height: 53px;
 	position: absolute;
 	bottom: -1622px;	
-=======
->>>>>>> Pattern-Fix
 }
 
 #centered {
@@ -267,17 +265,24 @@ header {
 }
 
 #apps {
-	background-image: url("img/place_apps.png");
-	position: relative;
+	float: right;
 	width: 86px;
-	height: 54px;
-	bottom: 54px;
-	margin: auto;
 }
 
 #apps_centered {
+	position: relative;
+	height: 54px;
+	bottom: 54px;
 	margin: auto;
 	width: 978px;
+}
+
+#arrow {
+	background-color: red;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	position: relative;
 }
 
 .ads {
